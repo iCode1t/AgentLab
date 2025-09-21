@@ -1,84 +1,71 @@
 # 🤖 AgentLab
 
-Deploy digital life to navigate web3!
+AgentLab is a no-code platform for **creating and deploying on-chain agents** on Solana.  
+These agents let communities **airdrop tokens, run votes, mint badges, or automate actions** — all without writing code.
 
-AgentLab is an **on-chain agent factory** built on Solana for the [DevFun App Jam](https://earn.superteam.fun/listing/devfun-on-chain-app-jam).  
-It lets anyone to **create, fork, and run small on-chain agents** (reusable mini-programs) that automate community actions for Solana tokens.
-
----
-
-## ✨ What is an Agent?
-
-An **agent** is like a smart on-chain robot with:
-
-- **Rules** → conditions it listens to
-- **Actions** → what it does when triggered
-
-Agents can be created, shared, forked, and triggered. All on-chain and live in seconds.
+Built for the **DevFun On-Chain App Jam**, AgentLab shows how anyone can spin up powerful token utilities in minutes.
 
 ---
 
-## 🚀 Example Agents
+## 🌟 Why AgentLab?
 
-### 1. Distributor Agent 🎁
+- **Problem:** Most Solana token communities struggle to add utility and engagement. Features like voting, airdrops, and gamified rewards require custom dev work.
+- **Solution:** AgentLab provides **ready-made, composable agents** that anyone can deploy with a simple UI.
 
-Automatically distributes tokens to wallets based on rules.
-
-- Reward first 100 buyers
-- Airdrop tokens to stakers
-- Bonus distribution for event attendees
-
-### 2. Voting Agent 🗳️
-
-Token-gated polls with weighted votes.
-
-- Community governance for meme coins
-- Decide roadmap features
-- Crowdsource next design or meme
-
-### 3. Badge Agent 🏅
-
-Mints NFT badges as rewards for achievements.
-
-- Early staker badges
-- Community milestone trophies
-- Proof of participation
+Agents are like **mini smart contracts** you can configure and launch instantly.
 
 ---
 
-## 🌐 Core Features
+## 🛠️ Agent Types
 
-- **Create Agent** → configure and deploy a new agent instantly
-- **Trigger Agent** → run actions on-chain (manual or automatic)
-- **Dashboard** → manage all your agents and see activity history
-- **Marketplace** → browse, fork, and remix public agents from other users
+1. **Distributor Agent**  
+   Automatically reward holders with airdrops.  
+   _Example: Distribute 10 $MEME to your first 100 holders every Friday._
 
----
+2. **Voting Agent**  
+   Token-weighted polls for community decisions.  
+   _Example: “Which feature should we ship next? Option A vs Option B.”_
 
-## 🖥️ Demo
+3. **Badge Agent**  
+   Mint NFT badges based on conditions.  
+   _Example: Award “Early Supporter” badge to anyone holding 1,000 tokens._
 
-- Live app: [#]
-- Demo video: [#]
-
----
-
-## 🔧 Tech Stack
-
-- **Frontend:** React, Tailwind, Framer Motion
-- **Wallet:** Solana Wallet Adapter (Phantom)
-- **Backend/On-chain:** Anchor, Solana Programs
-- **Hosting:** dev.fun / Vercel
+4. **Auto-Action Agent**  
+   Automate token actions with triggers.  
+   _Example: Burn 1% of supply if price drops below $0.01._
 
 ---
 
-## ⚡ Why AgentLab?
+## 🚀 Features
 
-- Make **token utilities** instantly accessible
-- Enable **no-code automation** for Web3 projects
-- Foster **community-driven growth** through reusable agents
+- **No-Code Deployment**: Choose an agent, fill out a form, click deploy.
+- **On-Chain Logic**: Agents execute real Solana transactions (airdrop, mint, vote).
+- **Marketplace** (planned): Browse and fork existing agents from other communities.
+- **Triggers**: Manual or automated execution.
 
 ---
 
-## 📜 License
+## 📺 Demo
 
-MIT License
+- Live App: [agentlab](https://agent-lab-five.vercel.app/)
+- DevFun Listing: [dev.fun/app/agentlab](https://dev.fun/p/4139f9782d51f2c84cd6)
+
+---
+
+## ⚡ Status
+
+Due to hackathon time limits, this MVP showcases the **full frontend experience**, with smart contract scaffolding in progress.  
+The UI demonstrates how AgentLab will connect to Anchor programs for each agent type.
+
+We believe this vision is **worthy of extension**: AgentLab can become a core tool for token communities to add utility instantly.
+
+---
+
+## 🛠️ Running Locally
+
+```bash
+git clone https://github.com/yourname/agentlab.git
+cd agentlab
+npm install
+npm run dev
+```
